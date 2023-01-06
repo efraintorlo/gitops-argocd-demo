@@ -8,7 +8,7 @@ labels:
 nameSuffix: -dev
 images:
   - name: efraintorlo/fastapi-demo
-    newTag: latest
+    newTag: 9610f5f
 resources:
   - deployment.yaml
   - service.yaml
