@@ -5,7 +5,7 @@ labels:
   - pairs:
       app: fastapi-demo
     includeSelectors: true
-nameSuffix: -dev
+# nameSuffix: -dev
 images:
   - name: efraintorlo/fastapi-demo
     newTag: 9610f5f
