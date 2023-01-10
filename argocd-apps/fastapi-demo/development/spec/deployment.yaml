@@ -36,4 +36,9 @@ spec:
           requests:
             cpu: 500m
             memory: 512Mi
+      tolerations:
+        - key: "backend"
+          value: "true"
+          operator: "Equal"
+          effect: "NoSchedule"
           
